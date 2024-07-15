@@ -1,0 +1,3 @@
+CREATE DATABASE Djourneys;
+CREATE USER DjourneyUser WITH PASSWORD 'Djourneys';
+GRANT ALL PRIVILEGES ON DATABASE Djourneys TO DjourneyUser;
